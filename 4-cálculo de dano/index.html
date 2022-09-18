@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de Dano</title>
+</head>
+
+<body>
+    <h1>Calculo de Dano</h1>
+
+    <label for="player1">Jogador 1: </label>
+    <input type="text" name="player1" id="player1"> <br><br>
+    <label for="atackPoints">Pontos de Ataque: </label>
+    <input type="number" name="atackPoints" id="atackPoints">
+    <br><br><br>
+    <label for="player2">Jogador 2: </label>
+    <input type="text" name="player2" id="player2"> <br><br>
+    <label for="defensePoints">Pontos de Defesa: </label>
+    <input type="number" name="defensePoints" id="defensePoints"> <br><br>
+    <label for="health">Pontos de Vida</label>
+    <input type="number" name="health" id="health"> <br><br><br>
+    <label for="shieldOn">Escudo Ativado</label>
+    <input type="radio" name="shield" id="shieldOn" value="activated" checked>
+    <label for="shieldOff">Escudo Desativado</label>
+    <input type="radio" name="shield" id="shieldOff" value="disabled">
+    <br><br><br>
+    <button onclick="update()">Atualizar Players</button>
+    <br><br><br>
+    <h3 id="output"></h3>
+    <h3 id="output2"></h3>
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
